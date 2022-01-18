@@ -1,0 +1,36 @@
+//iPhoneCapacity AndreaArenasPerezCode222327224
+let maximunCapacityGB = 8
+let defaulCapacityGB = 3
+let maximunCapacityInMB = maximunCapacityGB * 1000
+let defaulCapacityInMB = defaulCapacityGB * 1000
+let avaliableCapacityInMB = maximunCapacityInMB - defaulCapacityInMB
+let capacityRequiredMinuteVideoInMB = 150
+let fullCapacityByMinutesVideo = avaliableCapacityInMB / capacityRequiredMinuteVideoInMB
+
+//getReadyInTheMorning AndreaArenasPerezcode222327224
+let combMyHair = 10
+let dressUp = 10
+let goToTheBathroom = 5
+let eatBreakfast = 20
+let brushTeeth = 2
+let makeTheBackpack = 10
+let makeTheBed = 3
+let washMyFace = 5
+let listenMusic = 10
+let totalTime = enjoyDoing + dontEnjoyDoing + mustDo
+let enjoyDoing = dressUp + washMyFace + eatBreakfast + listenMusic
+let dontEnjoyDoing = brushTeeth + combMyHair + makeTheBed
+let mustDo = goToTheBathroom + makeTheBackpack 
+
+//truckLoadingGuide AndreaArenasPerezCode222327224
+let weigthCratesOfOrangesInLB = 100
+let weigthCratesOfWathermelonsInLB = 200
+let overallWeigth = weigthCratesOfOrangesInLB + weigthCratesOfWathermelonsInLB 
+let cratesOfOranges = 14
+let cratesOfWathermelons = 3
+let totalWeigthCratesOfOranges = weigthCratesOfOranges * cratesOfOranges
+let totalWeigthCratesOfWathermelons = weigthCratesOfWathermelons * cratesOfWathermelons
+let totalToLoald= totalWeigthCratesOfOranges + totalWeigthCratesOfWathermelons
+let equilibrateSpaceOfTruck = totalToLoald / 2
+let leftSide = equilibrateSpaceOfTruck / weigthCratesOfOranges
+let rigtSide = (cratesOfOranges - leftSide) + cratesOfWathermelons
